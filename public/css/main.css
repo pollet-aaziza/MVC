@@ -96,9 +96,36 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-.flex{
+   .title{
+    font-family: 'Tangerine', cursive;
+   }
+   .paragraphe{
+    font-family: 'Neuton', serif;
+   }
+   .light{
+       color: #3e8914;
+   }
+   .dark{
+       color: #233329;
+   }
+   .bgDark{
+       background-color: #233329;
+   }
+   bgLight{
+    background-color: #63a46c;
+   }
+.liste{
   display: flex;
   justify-content: space-between;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.lien{
+    border-radius: 30%;
+    font-size: 30px;
 }
 form{
     /* Uniquement centrer le formulaire sur la page */
@@ -153,6 +180,12 @@ form div + div {
     margin-left: .5em;
 }
 
+#hello{
+    background-image: url('../img/aazizaJumboBG.jpg');
+    min-height: 400px;
+    margin: 3em 0;
+    background-size: cover;
+}
 
 
 
