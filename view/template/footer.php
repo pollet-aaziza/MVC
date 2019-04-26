@@ -1,7 +1,7 @@
 </main>
 <footer class="footer jumbotron jumbotron-fluid mb-0 mt-5 py-2 darkBg text-center">
   <div >
-    <ul class="flex container">
+    <ul>
       <li><i class="fab fa-twitter"></i></li>
       <li><i class="fab fa-facebook-f"></i></li>
       <li><i class="fab fa-linkedin-in"></i></li>
